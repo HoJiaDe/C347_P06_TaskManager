@@ -8,17 +8,20 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <ListView
         android:id="@+id/lvTask"
         android:layout_width="match_parent"
-        android:layout_height="684dp">
+        android:layout_height="488dp">
 
     </ListView>
 
-    <Button
-        android:id="@+id/btnAdd"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+
 
 </LinearLayout>
